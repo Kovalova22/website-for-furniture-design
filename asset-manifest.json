@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/website-for-furniture-design/static/css/main.00765dd0.chunk.css",
-    "main.js": "/website-for-furniture-design/static/js/main.50626f68.chunk.js",
-    "main.js.map": "/website-for-furniture-design/static/js/main.50626f68.chunk.js.map",
+    "main.js": "/website-for-furniture-design/static/js/main.d7394efc.chunk.js",
+    "main.js.map": "/website-for-furniture-design/static/js/main.d7394efc.chunk.js.map",
     "runtime-main.js": "/website-for-furniture-design/static/js/runtime-main.2132476b.js",
     "runtime-main.js.map": "/website-for-furniture-design/static/js/runtime-main.2132476b.js.map",
     "static/js/2.83600715.chunk.js": "/website-for-furniture-design/static/js/2.83600715.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.2132476b.js",
     "static/js/2.83600715.chunk.js",
     "static/css/main.00765dd0.chunk.css",
-    "static/js/main.50626f68.chunk.js"
+    "static/js/main.d7394efc.chunk.js"
   ]
 }
