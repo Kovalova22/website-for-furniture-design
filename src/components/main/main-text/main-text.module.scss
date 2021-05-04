@@ -4,15 +4,39 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  h1 {
+  &__heading {
+    margin-left: 30px;
+    margin-top: 250px;
     font-weight: 600;
     font-size: 52px;
     line-height: 48px;
     letter-spacing: -0.95px;
   }
-  p {
+  &__text {
+    width: 417px;
+    opacity: 60%;
+    margin-left: 150px;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
+  }
+  &__main_Btn {
+    width: 200px;
+    height: 50px;
+    margin-left: -70px;
+    margin-top: 30px;
+    background-color: #312d2b;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    transition: opacity 0.3s ease;
+  }
+  &__main_Btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
   }
 }
