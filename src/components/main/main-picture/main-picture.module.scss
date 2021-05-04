@@ -1,10 +1,16 @@
 @import '../../../styles/vars.scss';
 
 .container {
+  @media screen and (max-width: 1220px) {
+    justify-content: center;
+  }
   display: flex;
   justify-content: flex-end;
   img {
     height: 815px;
     width: 645px;
+    @media screen and (max-width: 1220px) {
+      margin-left: 370px;
+    }
   }
 }
