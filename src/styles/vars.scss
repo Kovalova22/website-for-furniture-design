@@ -1,0 +1,10 @@
+/* colors */
+$primary-color: #faf9f7;
+$medium: #f5f2ef;
+$font-color: #312d2b;
+
+:export {
+  primaryColor: $primary-color;
+  medium: $medium;
+  fontColor: $font-color;
+}

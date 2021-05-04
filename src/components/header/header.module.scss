@@ -1,0 +1,11 @@
+@import "../../styles//vars.scss";
+
+.menu_container {
+  div {
+    width: 35px;
+    height: 5px;
+    background-color: $font-color;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+}
