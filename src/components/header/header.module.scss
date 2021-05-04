@@ -1,11 +1,69 @@
-@import "../../styles//vars.scss";
+@import '../../styles//vars.scss';
 
-.menu_container {
-  div {
-    width: 35px;
-    height: 5px;
-    background-color: $font-color;
-    margin: 6px 0;
-    transition: 0.4s;
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #ffffff;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-top: 10px;
+  margin-left: 110px;
+}
+.social {
+  display: flex;
+  align-items: center;
+  a {
+    margin: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    line-height: 17px;
+    transition: opacity 0.3s ease;
+  }
+  a:hover {
+    opacity: 0.7;
+  }
+}
+
+.right {
+  display: flex;
+  &__menu_container {
+    width: 150px;
+    background-color: $primary-color;
+    &__sandwich {
+      margin-top: 30px;
+      margin-left: 55px;
+      div {
+        width: 30px;
+        height: 2.5px;
+        background-color: $font-color;
+        margin: 2.5px 0;
+        transition: opacity 0.3s ease;
+      }
+    }
+    &__sandwich:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+  &__svg {
+    background-color: $medium;
+    width: 150px;
+    transition: opacity 0.3s ease;
+    img {
+      margin-top: 30px;
+      margin-left: 55px;
+    }
+  }
+  &__svg:hover {
+    cursor: pointer;
+    opacity: 0.8;
   }
 }
