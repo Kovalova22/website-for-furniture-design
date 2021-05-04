@@ -4,3 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: $primary-color;
 }
+.main {
+  display: flex;
+  justify-content: space-between;
+}
