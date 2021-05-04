@@ -1,0 +1,10 @@
+@import '../../../styles/vars.scss';
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  img {
+    height: 815px;
+    width: 645px;
+  }
+}
